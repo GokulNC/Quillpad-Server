@@ -317,7 +317,7 @@ class QuillCherry:
         self.validAPIKeys = {}
         self.quillProcessor = QuillSourceProcessor()
         self.quillManual= {"hindi": QuillManual("Hindi_Primary.xml"),"kannada": QuillManual("Kannada_Primary.xml"), "malayalam": QuillManual("Malayalam_Primary.xml"), "marathi": QuillManual("Marathi_Primary.xml"), "tamil": QuillManual("Tamil_Primary.xml"),"telugu": QuillManual("Telugu_Primary.xml")}
-        self.loadPreprocs("preProcessedWordFiles.txt")
+        self.loadPreprocs("additional_text_files/preProcessedWordFiles.txt")
         self.buildPrimary()
     
     @cherrypy.expose

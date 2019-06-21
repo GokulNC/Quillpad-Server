@@ -18,7 +18,10 @@ EnglishPronouncingTrees/*
 IndianPronouncingTrees/*
 logs/*
 dump/*
-*.zip
+# *.zip
 *.bz2
 *.gz
 Python Cart/python/build/
+
+# OS X
+.DS_Store

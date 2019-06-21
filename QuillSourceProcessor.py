@@ -8,10 +8,13 @@ import QuillEngXlit as xlit
 import re
 import const
 import primaryHelper
+from os.path import join
 
 class QuillSourceProcessor(object):
     def __init__(self):
         useCCart=True
+        
+        additional_files = "additional_text_files"
 
         bengaliDefFile='Bengali_Vrinda.xml'
         bengaliKnowledgeInput='bengali'
@@ -94,16 +97,16 @@ class QuillSourceProcessor(object):
         }
 
         self.clashMaps = {
-                'bengali': self.makeClashMap('bengaliClashList.txt'),
-                'gujarati': self.makeClashMap('gujaratiClash.txt'),
-                'hindi': self.makeClashMap('hindiClash.txt'),
-                'kannada': self.makeClashMap('kannadaClash.txt'),
-                'tamil': self.makeClashMap('tamilClash.txt'),
-                'marathi': self.makeClashMap('marathiClash.txt'),
-                'nepali': self.makeClashMap('nepaliClash.txt'),
-                'punjabi': self.makeClashMap('punjabiClash.txt'),
-                'telugu': self.makeClashMap('teluguClash.txt'),
-                'malayalam': self.makeClashMap('malayalamClash.txt')
+                'bengali': self.makeClashMap(join(additional_files,'bengaliClashList.txt')),
+                'gujarati': self.makeClashMap(join(additional_files,'gujaratiClash.txt')),
+                'hindi': self.makeClashMap(join(additional_files,'hindiClash.txt')),
+                'kannada': self.makeClashMap(join(additional_files,'kannadaClash.txt')),
+                'tamil': self.makeClashMap(join(additional_files,'tamilClash.txt')),
+                'marathi': self.makeClashMap(join(additional_files,'marathiClash.txt')),
+                'nepali': self.makeClashMap(join(additional_files,'nepaliClash.txt')),
+                'punjabi': self.makeClashMap(join(additional_files,'punjabiClash.txt')),
+                'telugu': self.makeClashMap(join(additional_files,'teluguClash.txt')),
+                'malayalam': self.makeClashMap(join(additional_files,'malayalamClash.txt'))
         }
 
         self.modeTypes = ['predictive','xliterate','itrans']
@@ -122,7 +125,7 @@ class QuillSourceProcessor(object):
         
         self.engine = None
 
-        self.loadEnglishDict('dict.txt')
+        self.loadEnglishDict(join(additional_files,'dict.txt'))
 
     def loadEnglishDict(self, fname):
         words = open(fname).read().split()
