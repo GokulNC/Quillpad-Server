@@ -72,7 +72,7 @@
    		https://stackoverflow.com/questions/43634584/cant-install-mysql-python-with-pip-on-macos-10-12-4/54429707#54429707
    		If above link also does not work then you may have to download/ install via zip files
    		`pip install MySQL-python-1.2.5.zip` --> https://pypi.org/project/MySQL-python/#files
-   		`pip install http://cdn.mysql.com/Downloads/Connector-Python/mysql-connector-python-2.0.4.zip`  
+   		`pip install http://cdn.mysql.com/Downloads/Connector-Python/mysql-connector-python-2.0.4.zip`
    		
    Need to make logs directory in Quillpad-Server:
    `mkdir logs`
