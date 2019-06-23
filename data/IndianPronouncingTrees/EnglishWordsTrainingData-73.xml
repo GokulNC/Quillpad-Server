@@ -1,0 +1,114 @@
+<QuillLanguage lang="English" script="English" deffont="Arial" epsilon="">
+	<tree key="I" type="predictive">
+		<node id="2">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('&#241;', 'Is letter &#241;?')</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="1">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("ah",1103)]</classes>
+		</node>
+		<node id="6">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('&#212;', 'Is letter &#212;?')</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="4">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('&#245;', 'Is letter &#245;?')</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="3">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("d-",261)]</classes>
+		</node>
+		<node id="5">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("d",884)]</classes>
+		</node>
+		<node id="8">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('&#241;', 'Is letter &#241;?')</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="7">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("d",206)]</classes>
+		</node>
+		<node id="10">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('&#214;', 'Is letter &#214;?')</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="9">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("d",120)]</classes>
+		</node>
+		<node id="11">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("#",1753)]</classes>
+		</node>
+	</tree>
+</QuillLanguage>

@@ -1,0 +1,174 @@
+<QuillLanguage lang="English" script="English" deffont="Arial" epsilon="">
+	<tree key="9" type="predictive">
+		<node id="6">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('&#243;', 'Is letter &#243;?')</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="2">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('&#222;', 'Is letter &#222;?')</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="1">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("ih",5378)]</classes>
+		</node>
+		<node id="4">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('&#206;', 'Is letter &#206;?')</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="3">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("v",15)]</classes>
+		</node>
+		<node id="5">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("y uh",100)]</classes>
+		</node>
+		<node id="10">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('&#251;', 'Is letter &#251;?')</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="8">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('_', 'Is letter _?')</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="7">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("y uw",1782)]</classes>
+		</node>
+		<node id="9">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("uw",37)]</classes>
+		</node>
+		<node id="12">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('&#221;', 'Is letter &#221;?')</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="11">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("y uw",46)]</classes>
+		</node>
+		<node id="14">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('&#247;', 'Is letter &#247;?')</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="13">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("y uw",38)]</classes>
+		</node>
+		<node id="16">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('&#224;', 'Is letter &#224;?')</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="15">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("y uw",6)]</classes>
+		</node>
+		<node id="17">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("uw",2120)]</classes>
+		</node>
+	</tree>
+</QuillLanguage>

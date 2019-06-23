@@ -1,0 +1,434 @@
+<QuillLanguage lang="Hindi" script="Devanagari" deffont="Mangal" epsilon="">
+	<tree key="q" type="predictive">
+		<node id="4">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('le', 'l', 'la', '(S)Is l ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="2">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('ba', 'be', 'ch', 'th', 'ze', 'de', 'za', 'd', 'ge', 'b', 'ga', 'je', 'ha', 'ja', 'che', 'cha', 'ka', 'te', 'g', 'ke', 'h', 'k', 'j', 'qa', 'p', 'pa', 'qe', 't', 'da', 'pe', 'z', 'q', 'tha', 'ta', '(S)Is unaspirated ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="1">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("क़्",6)]</classes>
+		</node>
+		<node id="3">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("क़",31257)]</classes>
+		</node>
+		<node id="8">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('a', 'A', 'e', 'ru', 'i', 'ye', 'o', 'vo', 'I', 'ey', 'u', 'vu', 'yi', 'yI', 'ou', 'U', 'ri', 'ai', 'vU', '(S)Is vowel ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="6">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('a', '(S)Is e0 ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="5">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("क़",41135)]</classes>
+		</node>
+		<node id="7">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("क़",38770)]</classes>
+		</node>
+		<node id="16">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('v', 'Is letter v?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="14">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('A', 'a', 'e', 'y', 'oh', 'I', 'ey', 'ei', 'o', 'vo', 'i', 'ai', 'U', 'vU', 'yi', 'yI', 'ou', 'u', 'ay', 'vu', '(S)Is long ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="10">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('ba', 'be', 'ch', 'th', 'ze', 'de', 'za', 'd', 'ge', 'b', 'ga', 'je', 'ha', 'ja', 'che', 'cha', 'ka', 'te', 'g', 'ke', 'h', 'k', 'j', 'qa', 'p', 'pa', 'qe', 't', 'da', 'pe', 'z', 'q', 'tha', 'ta', '(S)Is unaspirated ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="9">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("क़्",6)]</classes>
+		</node>
+		<node id="12">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('va', 'le', 've', 're', 'ya', 'la', 'ye', 'l', 'o', 'i', 'r', 'ra', 'v', 'y', '(S)Is semi-vowel ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="11">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("क़",28), ("क़्",12)]</classes>
+		</node>
+		<node id="13">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("क़",3)]</classes>
+		</node>
+		<node id="15">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("क़्",1117)]</classes>
+		</node>
+		<node id="18">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('qa', 'ka', 'ke', 'g', 'na', 'k', 'kh', 'n', 'q', 'ge', 'qe', 'gha', 'ga', 'kha', 'gh', '(S)Is cons1 ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="17">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("क़्",594)]</classes>
+		</node>
+		<node id="20">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('sha', 'sh', 'she', '(S)Is sh ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="19">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("क़्",80)]</classes>
+		</node>
+		<node id="24">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('#', 'Is letter #?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="22">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('va', 've', 'o', 'v', '(S)Is v ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="21">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("क़्",30)]</classes>
+		</node>
+		<node id="23">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("क़",5)]</classes>
+		</node>
+		<node id="26">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('va', 've', 'o', 'v', '(S)Is v ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="25">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("क़्",6)]</classes>
+		</node>
+		<node id="30">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('#', 'Is letter #?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="28">
+			<split-rule>
+				<rel-index>3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="27">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("क़",273)]</classes>
+		</node>
+		<node id="29">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("क़्",36)]</classes>
+		</node>
+		<node id="34">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('de', 'd', 'da', '(S)Is D ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="32">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'Che', 'dh', 'bha', 'bhe', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'jh', 'kha', 'ha', 'gh', 'jha', 'cha', 'jhe', 'd', 'f', 'h', 'dhe', 'kh', 'dha', 'gha', 'th', 'the', 'tha', '(S)Is aspirated ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="31">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("क़",23)]</classes>
+		</node>
+		<node id="33">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("क़्",8)]</classes>
+		</node>
+		<node id="38">
+			<split-rule>
+				<rel-index>3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('de', 'd', 'da', '(S)Is D ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="36">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('te', 't', 'ta', '(S)Is T ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="35">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("क़्",16)]</classes>
+		</node>
+		<node id="37">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("क़",257)]</classes>
+		</node>
+		<node id="42">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('the', 'tha', 'th', '(S)Is Th ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="40">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('u', 'U', '(S)Is U0 ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="39">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("क़्",4)]</classes>
+		</node>
+		<node id="41">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("क़",1380)]</classes>
+		</node>
+		<node id="43">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("क़",40334)]</classes>
+		</node>
+	</tree>
+</QuillLanguage>

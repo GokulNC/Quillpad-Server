@@ -1,0 +1,2134 @@
+<QuillLanguage lang="English" script="English" deffont="Arial" epsilon="ಁ">
+	<tree key="z" type="predictive">
+		<node id="30">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('i', 'Is letter i?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="16">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('z', 'Is letter z?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="2">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('p', 'Is letter p?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="1">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("t",209)]</classes>
+		</node>
+		<node id="4">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('u', 'Is letter u?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="3">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",150)]</classes>
+		</node>
+		<node id="8">
+			<split-rule>
+				<rel-index>3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('e', 'Is letter e?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="6">
+			<split-rule>
+				<rel-index>4</rel-index>
+				<context-id>-1</context-id>
+				<feature>('r', 'Is letter r?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="5">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ಁ",9)]</classes>
+		</node>
+		<node id="7">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",57)]</classes>
+		</node>
+		<node id="12">
+			<split-rule>
+				<rel-index>4</rel-index>
+				<context-id>-1</context-id>
+				<feature>('n', 'Is letter n?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="10">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('l', 'Is letter l?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="9">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",13)]</classes>
+		</node>
+		<node id="11">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ಁ",11)]</classes>
+		</node>
+		<node id="14">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('v', 'Is letter v?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="13">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("t",6)]</classes>
+		</node>
+		<node id="15">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ಁ",739)]</classes>
+		</node>
+		<node id="20">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('u', 'Is letter u?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="18">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('n', 'Is letter n?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="17">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",8)]</classes>
+		</node>
+		<node id="19">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("zh",55)]</classes>
+		</node>
+		<node id="22">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('s', 'Is letter s?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="21">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ಁ",7)]</classes>
+		</node>
+		<node id="24">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('p', 'Is letter p?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="23">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",27), ("s",10)]</classes>
+		</node>
+		<node id="28">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('o', 'Is letter o?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="26">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('i', 'Is letter i?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="25">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("t s",9)]</classes>
+		</node>
+		<node id="27">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",22)]</classes>
+		</node>
+		<node id="29">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",27496)]</classes>
+		</node>
+		<node id="52">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('t', 'Is letter t?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="32">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('s', 'Is letter s?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="31">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ಁ",110)]</classes>
+		</node>
+		<node id="34">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('a', 'Is letter a?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="33">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",10)]</classes>
+		</node>
+		<node id="38">
+			<split-rule>
+				<rel-index>-4</rel-index>
+				<context-id>-1</context-id>
+				<feature>('p', 'Is letter p?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="36">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('_', 'Is letter _?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="35">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("s",16)]</classes>
+		</node>
+		<node id="37">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",15)]</classes>
+		</node>
+		<node id="42">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('o', 'Is letter o?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="40">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('_', 'Is letter _?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="39">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("s",6)]</classes>
+		</node>
+		<node id="41">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",7)]</classes>
+		</node>
+		<node id="46">
+			<split-rule>
+				<rel-index>-4</rel-index>
+				<context-id>-1</context-id>
+				<feature>('f', 'Is letter f?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="44">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('_', 'Is letter _?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="43">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("s",43)]</classes>
+		</node>
+		<node id="45">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",10)]</classes>
+		</node>
+		<node id="50">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('p', 'Is letter p?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="48">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('_', 'Is letter _?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="47">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("s",48)]</classes>
+		</node>
+		<node id="49">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",9)]</classes>
+		</node>
+		<node id="51">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("s",3599)]</classes>
+		</node>
+		<node id="62">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('c', 'Is letter c?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="56">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('#', 'Is letter #?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="54">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('a', 'Is letter a?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="53">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",12)]</classes>
+		</node>
+		<node id="55">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ಁ",1354)]</classes>
+		</node>
+		<node id="58">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('y', 'Is letter y?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="57">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ಁ",14)]</classes>
+		</node>
+		<node id="60">
+			<split-rule>
+				<rel-index>-4</rel-index>
+				<context-id>-1</context-id>
+				<feature>('e', 'Is letter e?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="59">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("s",7), ("ಁ",7)]</classes>
+		</node>
+		<node id="61">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("s",118)]</classes>
+		</node>
+		<node id="74">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('z', 'Is letter z?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="66">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('l', 'Is letter l?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="64">
+			<split-rule>
+				<rel-index>4</rel-index>
+				<context-id>-1</context-id>
+				<feature>('r', 'Is letter r?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="63">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ಁ",11)]</classes>
+		</node>
+		<node id="65">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",392)]</classes>
+		</node>
+		<node id="70">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('#', 'Is letter #?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="68">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('o', 'Is letter o?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="67">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("t",9)]</classes>
+		</node>
+		<node id="69">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",19)]</classes>
+		</node>
+		<node id="72">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('e', 'Is letter e?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="71">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",11)]</classes>
+		</node>
+		<node id="73">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ಁ",634)]</classes>
+		</node>
+		<node id="84">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('l', 'Is letter l?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="82">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('z', 'Is letter z?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="76">
+			<split-rule>
+				<rel-index>3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('r', 'Is letter r?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="75">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",20)]</classes>
+		</node>
+		<node id="78">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('y', 'Is letter y?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="77">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",18)]</classes>
+		</node>
+		<node id="80">
+			<split-rule>
+				<rel-index>3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('e', 'Is letter e?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="79">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",6)]</classes>
+		</node>
+		<node id="81">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ah0",462)]</classes>
+		</node>
+		<node id="83">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",140)]</classes>
+		</node>
+		<node id="100">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('s', 'Is letter s?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="88">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('n', 'Is letter n?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="86">
+			<split-rule>
+				<rel-index>3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('_', 'Is letter _?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="85">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("t s",445)]</classes>
+		</node>
+		<node id="87">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",7)]</classes>
+		</node>
+		<node id="92">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('p', 'Is letter p?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="90">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('a', 'Is letter a?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="89">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",6)]</classes>
+		</node>
+		<node id="91">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("s",131)]</classes>
+		</node>
+		<node id="94">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('y', 'Is letter y?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="93">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ಁ",28)]</classes>
+		</node>
+		<node id="98">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('u', 'Is letter u?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="96">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('e', 'Is letter e?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="95">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",7)]</classes>
+		</node>
+		<node id="97">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ಁ",17)]</classes>
+		</node>
+		<node id="99">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",516)]</classes>
+		</node>
+		<node id="104">
+			<split-rule>
+				<rel-index>3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('v', 'Is letter v?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="102">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('e', 'Is letter e?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="101">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",7)]</classes>
+		</node>
+		<node id="103">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("zh",118)]</classes>
+		</node>
+		<node id="108">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('s', 'Is letter s?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="106">
+			<split-rule>
+				<rel-index>-4</rel-index>
+				<context-id>-1</context-id>
+				<feature>('d', 'Is letter d?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="105">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",49)]</classes>
+		</node>
+		<node id="107">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ಁ",119)]</classes>
+		</node>
+		<node id="114">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('c', 'Is letter c?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="112">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('i', 'Is letter i?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="110">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('#', 'Is letter #?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="109">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",7)]</classes>
+		</node>
+		<node id="111">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ಁ",119)]</classes>
+		</node>
+		<node id="113">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",83)]</classes>
+		</node>
+		<node id="116">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('d', 'Is letter d?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="115">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("zh",42)]</classes>
+		</node>
+		<node id="120">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('s', 'Is letter s?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="118">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('a', 'Is letter a?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="117">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("zh",34)]</classes>
+		</node>
+		<node id="119">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ಁ",20)]</classes>
+		</node>
+		<node id="122">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('k', 'Is letter k?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="121">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("t s",30)]</classes>
+		</node>
+		<node id="124">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('j', 'Is letter j?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="123">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ಁ",28)]</classes>
+		</node>
+		<node id="132">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('h', 'Is letter h?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="126">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('u', 'Is letter u?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="125">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("t s",27)]</classes>
+		</node>
+		<node id="128">
+			<split-rule>
+				<rel-index>3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('o', 'Is letter o?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="127">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("t s",27)]</classes>
+		</node>
+		<node id="130">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('h', 'Is letter h?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="129">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("zh",7)]</classes>
+		</node>
+		<node id="131">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",158)]</classes>
+		</node>
+		<node id="134">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('q', 'Is letter q?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="133">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("s",13)]</classes>
+		</node>
+		<node id="150">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('z', 'Is letter z?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="136">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('p', 'Is letter p?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="135">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("s",78)]</classes>
+		</node>
+		<node id="138">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('u', 'Is letter u?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="137">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ಁ",31)]</classes>
+		</node>
+		<node id="140">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('e', 'Is letter e?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="139">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ಁ",11)]</classes>
+		</node>
+		<node id="146">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('#', 'Is letter #?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="142">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('i', 'Is letter i?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="141">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",29)]</classes>
+		</node>
+		<node id="144">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('o', 'Is letter o?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="143">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("s",9)]</classes>
+		</node>
+		<node id="145">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ಁ",19)]</classes>
+		</node>
+		<node id="148">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('v', 'Is letter v?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="147">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("s",6)]</classes>
+		</node>
+		<node id="149">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",1264)]</classes>
+		</node>
+		<node id="156">
+			<split-rule>
+				<rel-index>-4</rel-index>
+				<context-id>-1</context-id>
+				<feature>('o', 'Is letter o?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="154">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('_', 'Is letter _?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="152">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('n', 'Is letter n?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="151">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("t s",56)]</classes>
+		</node>
+		<node id="153">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",71)]</classes>
+		</node>
+		<node id="155">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",182)]</classes>
+		</node>
+		<node id="160">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('y', 'Is letter y?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="158">
+			<split-rule>
+				<rel-index>4</rel-index>
+				<context-id>-1</context-id>
+				<feature>('n', 'Is letter n?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="157">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("zh",18)]</classes>
+		</node>
+		<node id="159">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",25)]</classes>
+		</node>
+		<node id="164">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('v', 'Is letter v?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="162">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('#', 'Is letter #?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="161">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",20)]</classes>
+		</node>
+		<node id="163">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ಁ",16)]</classes>
+		</node>
+		<node id="178">
+			<split-rule>
+				<rel-index>3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('r', 'Is letter r?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="166">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('f', 'Is letter f?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="165">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("zh",29)]</classes>
+		</node>
+		<node id="176">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('e', 'Is letter e?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="172">
+			<split-rule>
+				<rel-index>4</rel-index>
+				<context-id>-1</context-id>
+				<feature>('_', 'Is letter _?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="168">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('a', 'Is letter a?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="167">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",61)]</classes>
+		</node>
+		<node id="170">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('#', 'Is letter #?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="169">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",7)]</classes>
+		</node>
+		<node id="171">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("zh",10)]</classes>
+		</node>
+		<node id="174">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('b', 'Is letter b?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="173">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("t s",8)]</classes>
+		</node>
+		<node id="175">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("zh",18)]</classes>
+		</node>
+		<node id="177">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",635)]</classes>
+		</node>
+		<node id="184">
+			<split-rule>
+				<rel-index>4</rel-index>
+				<context-id>-1</context-id>
+				<feature>('g', 'Is letter g?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="180">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('i', 'Is letter i?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="179">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("t",29)]</classes>
+		</node>
+		<node id="182">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('a', 'Is letter a?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="181">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("zh",6)]</classes>
+		</node>
+		<node id="183">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",31)]</classes>
+		</node>
+		<node id="188">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('_', 'Is letter _?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="186">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('#', 'Is letter #?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="185">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z iy1",94)]</classes>
+		</node>
+		<node id="187">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",1879)]</classes>
+		</node>
+		<node id="192">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('z', 'Is letter z?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="190">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('e', 'Is letter e?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="189">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ಁ",12)]</classes>
+		</node>
+		<node id="191">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",29)]</classes>
+		</node>
+		<node id="200">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('n', 'Is letter n?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="194">
+			<split-rule>
+				<rel-index>3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('n', 'Is letter n?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="193">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("t s",40)]</classes>
+		</node>
+		<node id="198">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('_', 'Is letter _?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="196">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('#', 'Is letter #?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="195">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("t s",7)]</classes>
+		</node>
+		<node id="197">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",31)]</classes>
+		</node>
+		<node id="199">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",647)]</classes>
+		</node>
+		<node id="208">
+			<split-rule>
+				<rel-index>3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('o', 'Is letter o?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="202">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('a', 'Is letter a?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="201">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("zh",6)]</classes>
+		</node>
+		<node id="206">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('l', 'Is letter l?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="204">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('h', 'Is letter h?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="203">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("zh",6)]</classes>
+		</node>
+		<node id="205">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",12)]</classes>
+		</node>
+		<node id="207">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",392)]</classes>
+		</node>
+		<node id="212">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('#', 'Is letter #?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="210">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('u', 'Is letter u?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="209">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("zh",9)]</classes>
+		</node>
+		<node id="211">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",367)]</classes>
+		</node>
+		<node id="213">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",22244)]</classes>
+		</node>
+	</tree>
+</QuillLanguage>

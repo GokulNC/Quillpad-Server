@@ -1,0 +1,334 @@
+<QuillLanguage lang="English" script="English" deffont="Arial" epsilon="">
+	<tree key="&#189;" type="predictive">
+		<node id="2">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('&#249;', 'Is letter &#249;?')</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="1">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",42578)]</classes>
+		</node>
+		<node id="4">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('&#225;', 'Is letter &#225;?')</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="3">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",14704)]</classes>
+		</node>
+		<node id="10">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('&#255;', 'Is letter &#255;?')</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="8">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('&#246;', 'Is letter &#246;?')</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="6">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('&#186;', 'Is letter &#186;?')</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="5">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("-z",109)]</classes>
+		</node>
+		<node id="7">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",51)]</classes>
+		</node>
+		<node id="9">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",14832)]</classes>
+		</node>
+		<node id="14">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('#', 'Is letter #?')</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="12">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('&#204;', 'Is letter &#204;?')</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="11">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("-z",338)]</classes>
+		</node>
+		<node id="13">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",17487)]</classes>
+		</node>
+		<node id="18">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('#', 'Is letter #?')</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="16">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('&#202;', 'Is letter &#202;?')</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="15">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",170)]</classes>
+		</node>
+		<node id="17">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",212360)]</classes>
+		</node>
+		<node id="20">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('&#138;', 'Is letter &#138;?')</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="19">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("-z",238)]</classes>
+		</node>
+		<node id="22">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('&#215;', 'Is letter &#215;?')</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="21">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("z-",233)]</classes>
+		</node>
+		<node id="26">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('&#173;', 'Is letter &#173;?')</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="24">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('&#179;', 'Is letter &#179;?')</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="23">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",25)]</classes>
+		</node>
+		<node id="25">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("-z",107)]</classes>
+		</node>
+		<node id="28">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('&#188;', 'Is letter &#188;?')</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="27">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("-z",74)]</classes>
+		</node>
+		<node id="32">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('&#254;', 'Is letter &#254;?')</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="30">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('&#245;', 'Is letter &#245;?')</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="29">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("-z",108)]</classes>
+		</node>
+		<node id="31">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",385)]</classes>
+		</node>
+		<node id="33">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("z",43435)]</classes>
+		</node>
+	</tree>
+</QuillLanguage>

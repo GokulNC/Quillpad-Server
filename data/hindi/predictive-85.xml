@@ -1,0 +1,2554 @@
+<QuillLanguage lang="Hindi" script="Devanagari" deffont="Mangal" epsilon="">
+	<tree key="U" type="predictive">
+		<node id="10">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('le', 'l', 'la', '(S)Is l ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="8">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="2">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('a', 'yi', 'ey', 'u', 'vu', 'i', 'e', 'ye', '(S)Is short ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="1">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",1)]</classes>
+		</node>
+		<node id="6">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('k', 'Is letter k?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="4">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('A', 'a', 'e', 'y', 'oh', 'I', 'ey', 'ei', 'o', 'vo', 'i', 'ai', 'U', 'vU', 'yi', 'yI', 'ou', 'u', 'ay', 'vu', '(S)Is long ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="3">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("",1)]</classes>
+		</node>
+		<node id="5">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",298)]</classes>
+		</node>
+		<node id="7">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",45559)]</classes>
+		</node>
+		<node id="9">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",19)]</classes>
+		</node>
+		<node id="22">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('de', 'd', 'da', '(S)Is D ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="18">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('a', 'A', 'e', 'ru', 'i', 'ye', 'o', 'vo', 'I', 'ey', 'u', 'vu', 'yi', 'yI', 'ou', 'U', 'ri', 'ai', 'vU', '(S)Is vowel ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="16">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="12">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'Che', 'dh', 'bha', 'bhe', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'jh', 'kha', 'ha', 'gh', 'jha', 'cha', 'jhe', 'd', 'f', 'h', 'dhe', 'kh', 'dha', 'gha', 'th', 'the', 'tha', '(S)Is aspirated ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="11">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("",302)]</classes>
+		</node>
+		<node id="14">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('I', 'i', 'y', '(S)Is I0 ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="13">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("",6)]</classes>
+		</node>
+		<node id="15">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",20)]</classes>
+		</node>
+		<node id="17">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",2037)]</classes>
+		</node>
+		<node id="20">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="19">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",44917)]</classes>
+		</node>
+		<node id="21">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",15)]</classes>
+		</node>
+		<node id="30">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('i', '(S)Is i0 ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="28">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="26">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('a', 'A', 'e', 'ru', 'i', 'ye', 'o', 'vo', 'I', 'ey', 'u', 'vu', 'yi', 'yI', 'ou', 'U', 'ri', 'ai', 'vU', '(S)Is vowel ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="24">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('jha', 'Cha', 'ch', 'jhe', 'Che', 'g', 'cha', 'h', 'j', 'za', 'na', 'n', 'ny', 'jh', 'z', 'ze', 'je', 'nya', 'ha', 'ja', 'che', '(S)Is cons2 ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="23">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",171)]</classes>
+		</node>
+		<node id="25">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("",166)]</classes>
+		</node>
+		<node id="27">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",45557)]</classes>
+		</node>
+		<node id="29">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",177)]</classes>
+		</node>
+		<node id="32">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('le', 'l', 'la', '(S)Is l ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="31">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",43075)]</classes>
+		</node>
+		<node id="50">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('qa', 'ka', 'ke', 'g', 'na', 'k', 'kh', 'n', 'q', 'ge', 'qe', 'gha', 'ga', 'kha', 'gh', '(S)Is cons1 ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="42">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('kha', 'kh', '(S)Is kh ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="34">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('va', 'le', 've', 're', 'ya', 'la', 'ye', 'l', 'o', 'i', 'r', 'ra', 'v', 'y', '(S)Is semi-vowel ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="33">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",23)]</classes>
+		</node>
+		<node id="36">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('va', 'le', 've', 're', 'ya', 'la', 'ye', 'l', 'o', 'i', 'r', 'ra', 'v', 'y', '(S)Is semi-vowel ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="35">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",13)]</classes>
+		</node>
+		<node id="38">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('ba', 'be', 'ch', 'th', 'ze', 'de', 'za', 'd', 'ge', 'b', 'ga', 'je', 'ha', 'ja', 'che', 'cha', 'ka', 'te', 'g', 'ke', 'h', 'k', 'j', 'qa', 'p', 'pa', 'qe', 't', 'da', 'pe', 'z', 'q', 'tha', 'ta', '(S)Is unaspirated ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="37">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",4)]</classes>
+		</node>
+		<node id="40">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('s', 'sa', 'se', '(S)Is s ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="39">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",3)]</classes>
+		</node>
+		<node id="41">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",667)]</classes>
+		</node>
+		<node id="48">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('a', 'A', 'e', 'ru', 'i', 'ye', 'o', 'vo', 'I', 'ey', 'u', 'vu', 'yi', 'yI', 'ou', 'U', 'ri', 'ai', 'vU', '(S)Is vowel ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="44">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('ba', 'be', 'ch', 'th', 'ze', 'de', 'za', 'd', 'ge', 'b', 'ga', 'je', 'ha', 'ja', 'che', 'cha', 'ka', 'te', 'g', 'ke', 'h', 'k', 'j', 'qa', 'p', 'pa', 'qe', 't', 'da', 'pe', 'z', 'q', 'tha', 'ta', '(S)Is unaspirated ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="43">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",104)]</classes>
+		</node>
+		<node id="46">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="45">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("",616)]</classes>
+		</node>
+		<node id="47">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",15)]</classes>
+		</node>
+		<node id="49">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",44180)]</classes>
+		</node>
+		<node id="68">
+			<split-rule>
+				<rel-index>3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('y', 'ya', 'ye', 'i', '(S)Is y ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="56">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('a', 'A', 'e', 'ru', 'i', 'ye', 'o', 'vo', 'I', 'ey', 'u', 'vu', 'yi', 'yI', 'ou', 'U', 'ri', 'ai', 'vU', '(S)Is vowel ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="54">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="52">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="51">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("",528)]</classes>
+		</node>
+		<node id="53">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",13)]</classes>
+		</node>
+		<node id="55">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",564)]</classes>
+		</node>
+		<node id="66">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="60">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('the', 'tha', 'th', '(S)Is Th ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="58">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('cha', 'ha', 'ch', 'che', 'h', '(S)Is ch ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="57">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",2)]</classes>
+		</node>
+		<node id="59">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",6)]</classes>
+		</node>
+		<node id="64">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('ay', 'ei', 'ey', 'e', '(S)Is E0 ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="62">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('p', 'pa', 'pe', '(S)Is p ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="61">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",6)]</classes>
+		</node>
+		<node id="63">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",94)]</classes>
+		</node>
+		<node id="65">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",44679)]</classes>
+		</node>
+		<node id="67">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",232)]</classes>
+		</node>
+		<node id="72">
+			<split-rule>
+				<rel-index>3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('te', 't', 'ta', '(S)Is T ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="70">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="69">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",39983)]</classes>
+		</node>
+		<node id="71">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",24)]</classes>
+		</node>
+		<node id="84">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('re', 'r', 'ra', '(S)Is r ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="78">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('the', 'tha', 'th', '(S)Is Th ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="74">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('a', 'yi', 'ey', 'u', 'vu', 'i', 'e', 'ye', '(S)Is short ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="73">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",9)]</classes>
+		</node>
+		<node id="76">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('re', 'r', 'ra', '(S)Is r ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="75">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",3)]</classes>
+		</node>
+		<node id="77">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",64)]</classes>
+		</node>
+		<node id="82">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('te', 't', 'ta', '(S)Is T ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="80">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('ay', 'ei', 'ey', 'e', '(S)Is E0 ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="79">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",12)]</classes>
+		</node>
+		<node id="81">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",83)]</classes>
+		</node>
+		<node id="83">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",45014)]</classes>
+		</node>
+		<node id="94">
+			<split-rule>
+				<rel-index>3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('a', '(S)Is e0 ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="92">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="90">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('a', 'A', 'e', 'ru', 'i', 'ye', 'o', 'vo', 'I', 'ey', 'u', 'vu', 'yi', 'yI', 'ou', 'U', 'ri', 'ai', 'vU', '(S)Is vowel ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="86">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('A', 'a', 'e', 'y', 'oh', 'I', 'ey', 'ei', 'o', 'vo', 'i', 'ai', 'U', 'vU', 'yi', 'yI', 'ou', 'u', 'ay', 'vu', '(S)Is long ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="85">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("",832)]</classes>
+		</node>
+		<node id="88">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('m', 'n', '(S)Is chandra-bindu ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="87">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",4)]</classes>
+		</node>
+		<node id="89">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",11)]</classes>
+		</node>
+		<node id="91">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",46302)]</classes>
+		</node>
+		<node id="93">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",2291)]</classes>
+		</node>
+		<node id="98">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('cha', 'ha', 'ch', 'che', 'h', '(S)Is ch ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="96">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="95">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",45037)]</classes>
+		</node>
+		<node id="97">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",29)]</classes>
+		</node>
+		<node id="108">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('I', 'i', 'y', '(S)Is I0 ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="104">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('cha', 'ha', 'ch', 'che', 'h', '(S)Is ch ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="100">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('va', 'le', 've', 're', 'ya', 'la', 'ye', 'l', 'o', 'i', 'r', 'ra', 'v', 'y', '(S)Is semi-vowel ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="99">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("",158)]</classes>
+		</node>
+		<node id="102">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="101">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",36)]</classes>
+		</node>
+		<node id="103">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",156)]</classes>
+		</node>
+		<node id="106">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="105">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",42044)]</classes>
+		</node>
+		<node id="107">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",26)]</classes>
+		</node>
+		<node id="110">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('bha', 'bhe', 'bh', '(S)Is bh ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="109">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",45416)]</classes>
+		</node>
+		<node id="120">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('qa', 'ka', 'ke', 'g', 'na', 'k', 'kh', 'n', 'q', 'ge', 'qe', 'gha', 'ga', 'kha', 'gh', '(S)Is cons1 ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="118">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="116">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('a', 'A', 'e', 'ru', 'i', 'ye', 'o', 'vo', 'I', 'ey', 'u', 'vu', 'yi', 'yI', 'ou', 'U', 'ri', 'ai', 'vU', '(S)Is vowel ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="112">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('A', 'a', 'e', 'y', 'oh', 'I', 'ey', 'ei', 'o', 'vo', 'i', 'ai', 'U', 'vU', 'yi', 'yI', 'ou', 'u', 'ay', 'vu', '(S)Is long ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="111">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("",1494)]</classes>
+		</node>
+		<node id="114">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('A', 'a', 'e', 'ey', 'ru', 'i', 'oh', 'o', 'I', 'ei', 'ai', 'u', 'y', 'U', 'ou', 'ri', 'ay', '(S)Is mathra ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="113">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",7)]</classes>
+		</node>
+		<node id="115">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",3)]</classes>
+		</node>
+		<node id="117">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",44977)]</classes>
+		</node>
+		<node id="119">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",4531)]</classes>
+		</node>
+		<node id="130">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('s', 'sa', 'se', '(S)Is s ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="126">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('a', 'A', 'e', 'ru', 'i', 'ye', 'o', 'vo', 'I', 'ey', 'u', 'vu', 'yi', 'yI', 'ou', 'U', 'ri', 'ai', 'vU', '(S)Is vowel ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="124">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="122">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="121">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",6)]</classes>
+		</node>
+		<node id="123">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("",246)]</classes>
+		</node>
+		<node id="125">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",256)]</classes>
+		</node>
+		<node id="128">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="127">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",38863)]</classes>
+		</node>
+		<node id="129">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",60)]</classes>
+		</node>
+		<node id="138">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('d', 'dh', 'na', 'da', 'de', 'dha', 'n', 't', 'th', 'the', 'te', 'dhe', 'tha', 'ta', '(S)Is cons3 ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="136">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="134">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('a', 'A', 'e', 'ru', 'i', 'ye', 'o', 'vo', 'I', 'ey', 'u', 'vu', 'yi', 'yI', 'ou', 'U', 'ri', 'ai', 'vU', '(S)Is vowel ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="132">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('A', 'a', 'e', 'y', 'oh', 'I', 'ey', 'ei', 'o', 'vo', 'i', 'ai', 'U', 'vU', 'yi', 'yI', 'ou', 'u', 'ay', 'vu', '(S)Is long ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="131">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("",26)]</classes>
+		</node>
+		<node id="133">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",8)]</classes>
+		</node>
+		<node id="135">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",36381)]</classes>
+		</node>
+		<node id="137">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",140)]</classes>
+		</node>
+		<node id="140">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('p', 'pa', 'pe', '(S)Is p ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="139">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",40892)]</classes>
+		</node>
+		<node id="162">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('a', 'yi', 'ey', 'u', 'vu', 'i', 'e', 'ye', '(S)Is short ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="158">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="142">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('o', '(S)Is o0 ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="141">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",3)]</classes>
+		</node>
+		<node id="146">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('a', 'A', 'e', 'ru', 'i', 'ye', 'o', 'vo', 'I', 'ey', 'u', 'vu', 'yi', 'yI', 'ou', 'U', 'ri', 'ai', 'vU', '(S)Is vowel ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="144">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="143">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",26)]</classes>
+		</node>
+		<node id="145">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("",3)]</classes>
+		</node>
+		<node id="152">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('le', 'l', 'la', '(S)Is l ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="150">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('m', 'n', '(S)Is chandra-bindu ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="148">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="147">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",3)]</classes>
+		</node>
+		<node id="149">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",1)]</classes>
+		</node>
+		<node id="151">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",115)]</classes>
+		</node>
+		<node id="156">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('k', 'Is letter k?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="154">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'Che', 'dh', 'bha', 'bhe', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'jh', 'kha', 'ha', 'gh', 'jha', 'cha', 'jhe', 'd', 'f', 'h', 'dhe', 'kh', 'dha', 'gha', 'th', 'the', 'tha', '(S)Is aspirated ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="153">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",1)]</classes>
+		</node>
+		<node id="155">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",127)]</classes>
+		</node>
+		<node id="157">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",39592)]</classes>
+		</node>
+		<node id="160">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('va', 've', 'o', 'v', '(S)Is v ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="159">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",3)]</classes>
+		</node>
+		<node id="161">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",1718)]</classes>
+		</node>
+		<node id="166">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('#', 'Is letter #?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="164">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="163">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",35181)]</classes>
+		</node>
+		<node id="165">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",80)]</classes>
+		</node>
+		<node id="240">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('A', 'a', '(S)Is A0 ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="168">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('h', '(S)Is visarga ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="167">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",102633)]</classes>
+		</node>
+		<node id="184">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('a', 'A', 'e', 'ru', 'i', 'ye', 'o', 'vo', 'I', 'ey', 'u', 'vu', 'yi', 'yI', 'ou', 'U', 'ri', 'ai', 'vU', '(S)Is vowel ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="170">
+			<split-rule>
+				<rel-index>3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('ny', 'nya', 'na', 'n', '(S)Is ~n ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="169">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",18)]</classes>
+		</node>
+		<node id="172">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('m', 'n', '(S)Is chandra-bindu ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="171">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("",1466)]</classes>
+		</node>
+		<node id="180">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('j', 'g', 'ze', 'je', 'z', 'ja', 'za', '(S)Is j ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="178">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('a', 'yi', 'ey', 'u', 'vu', 'i', 'e', 'ye', '(S)Is short ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="174">
+			<split-rule>
+				<rel-index>-4</rel-index>
+				<context-id>-1</context-id>
+				<feature>('A', 'Is letter A?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="173">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",17)]</classes>
+		</node>
+		<node id="176">
+			<split-rule>
+				<rel-index>-4</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="175">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("",26)]</classes>
+		</node>
+		<node id="177">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("",26), ("ू",17)]</classes>
+		</node>
+		<node id="179">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("",52)]</classes>
+		</node>
+		<node id="182">
+			<split-rule>
+				<rel-index>2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('_', 'Is letter _?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="181">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",2)]</classes>
+		</node>
+		<node id="183">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("",406)]</classes>
+		</node>
+		<node id="200">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('ny', 'nya', 'na', 'n', '(S)Is ~n ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="192">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('h', '(S)Is visarga ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="190">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('a', 'yi', 'ey', 'u', 'vu', 'i', 'e', 'ye', '(S)Is short ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="186">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="185">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",28)]</classes>
+		</node>
+		<node id="188">
+			<split-rule>
+				<rel-index>-4</rel-index>
+				<context-id>-1</context-id>
+				<feature>('kha', 'kh', '(S)Is kh ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="187">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",598)]</classes>
+		</node>
+		<node id="189">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",64)]</classes>
+		</node>
+		<node id="191">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",60)]</classes>
+		</node>
+		<node id="198">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('m', 'n', '(S)Is chandra-bindu ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="194">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="193">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",26)]</classes>
+		</node>
+		<node id="196">
+			<split-rule>
+				<rel-index>-4</rel-index>
+				<context-id>-1</context-id>
+				<feature>('u', 'U', '(S)Is U0 ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="195">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",2)]</classes>
+		</node>
+		<node id="197">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",14)]</classes>
+		</node>
+		<node id="199">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",893)]</classes>
+		</node>
+		<node id="204">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('fa', 'pha', 'phe', 'f', '(S)Is ph ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="202">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('m', 'n', '(S)Is chandra-bindu ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="201">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",16)]</classes>
+		</node>
+		<node id="203">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",17)]</classes>
+		</node>
+		<node id="212">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('s', 'sa', 'se', '(S)Is s ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="210">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('m', 'n', '(S)Is chandra-bindu ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="206">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="205">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",3)]</classes>
+		</node>
+		<node id="208">
+			<split-rule>
+				<rel-index>-4</rel-index>
+				<context-id>-1</context-id>
+				<feature>('I', 'i', 'y', '(S)Is I0 ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="207">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",16)]</classes>
+		</node>
+		<node id="209">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",2)]</classes>
+		</node>
+		<node id="211">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",152)]</classes>
+		</node>
+		<node id="224">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('de', 'd', 'da', '(S)Is D ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="216">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('m', 'n', '(S)Is chandra-bindu ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="214">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="213">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",6)]</classes>
+		</node>
+		<node id="215">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",2)]</classes>
+		</node>
+		<node id="222">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('qa', 'ka', 'ke', 'g', 'na', 'k', 'kh', 'n', 'q', 'ge', 'qe', 'gha', 'ga', 'kha', 'gh', '(S)Is cons1 ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="220">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('a', 'yi', 'ey', 'u', 'vu', 'i', 'e', 'ye', '(S)Is short ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="218">
+			<split-rule>
+				<rel-index>-4</rel-index>
+				<context-id>-1</context-id>
+				<feature>('A', 'a', '(S)Is A0 ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="217">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",89), ("ऊ",1)]</classes>
+		</node>
+		<node id="219">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",20)]</classes>
+		</node>
+		<node id="221">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",109)]</classes>
+		</node>
+		<node id="223">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",135)]</classes>
+		</node>
+		<node id="238">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('m', 'n', '(S)Is chandra-bindu ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="230">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('m', 'n', '(S)Is chandra-bindu ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="226">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="225">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",20)]</classes>
+		</node>
+		<node id="228">
+			<split-rule>
+				<rel-index>-4</rel-index>
+				<context-id>-1</context-id>
+				<feature>('u', 'U', '(S)Is U0 ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="227">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",2)]</classes>
+		</node>
+		<node id="229">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",6)]</classes>
+		</node>
+		<node id="236">
+			<split-rule>
+				<rel-index>-3</rel-index>
+				<context-id>-1</context-id>
+				<feature>('le', 'l', 'la', '(S)Is l ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="234">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('a', 'yi', 'ey', 'u', 'vu', 'i', 'e', 'ye', '(S)Is short ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="232">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="231">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",6)]</classes>
+		</node>
+		<node id="233">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",34), ("ऊ",1)]</classes>
+		</node>
+		<node id="235">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",34)]</classes>
+		</node>
+		<node id="237">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",1523)]</classes>
+		</node>
+		<node id="239">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",16548)]</classes>
+		</node>
+		<node id="254">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="252">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('a', 'A', 'e', 'ru', 'i', 'ye', 'o', 'vo', 'I', 'ey', 'u', 'vu', 'yi', 'yI', 'ou', 'U', 'ri', 'ai', 'vU', '(S)Is vowel ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="248">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('A', 'a', 'e', 'y', 'oh', 'I', 'ey', 'ei', 'o', 'vo', 'i', 'ai', 'U', 'vU', 'yi', 'yI', 'ou', 'u', 'ay', 'vu', '(S)Is long ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="242">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('A', 'a', 'e', 'ey', 'ru', 'i', 'oh', 'o', 'I', 'ei', 'ai', 'u', 'y', 'U', 'ou', 'ri', 'ay', '(S)Is mathra ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="241">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",3)]</classes>
+		</node>
+		<node id="244">
+			<split-rule>
+				<rel-index>1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('Cha', 'ch', 'sh', 'Che', 'va', 'bha', 'ze', 'gha', 'bhe', 'za', 'sha', 'ge', 'ga', 'me', 'kha', 'gh', 'cha', 'le', 'che', 'ma', 're', 'na', 'dhe', 'ne', 'dha', 'kh', 'ny', 'ke', 'pa', 'ra', 'th', 'pe', 'te', 'q', 'ta', 'se', 'be', 'la', 'ba', 'dh', 'ya', 'ye', 'pha', 'de', 'bh', 'phe', 'da', 'fa', 'b', 'jh', 'sa', 'je', 'ha', 'she', 'ja', 've', 'jha', 'ka', 'nya', 'jhe', 'd', 'g', 'f', 'i', 'h', 'k', 'j', 'm', 'l', 'o', 'n', 'qa', 'p', 's', 'r', 'qe', 't', 'v', 'y', 'the', 'z', 'tha', '(S)Is cons ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="243">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("",44)]</classes>
+		</node>
+		<node id="246">
+			<split-rule>
+				<rel-index>-2</rel-index>
+				<context-id>-1</context-id>
+				<feature>('ay', 'ei', 'ey', 'e', '(S)Is E0 ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="245">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",5)]</classes>
+		</node>
+		<node id="247">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("",15)]</classes>
+		</node>
+		<node id="250">
+			<split-rule>
+				<rel-index>-1</rel-index>
+				<context-id>-1</context-id>
+				<feature>('A', 'a', 'e', 'ey', 'ru', 'i', 'oh', 'o', 'I', 'ei', 'ai', 'u', 'y', 'U', 'ou', 'ri', 'ay', '(S)Is mathra ?')</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>False</terminal>
+			<classes>[]</classes>
+		</node>
+		<node id="249">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",17)]</classes>
+		</node>
+		<node id="251">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",30)]</classes>
+		</node>
+		<node id="253">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ू",42035)]</classes>
+		</node>
+		<node id="255">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("ऊ",12852)]</classes>
+		</node>
+	</tree>
+</QuillLanguage>

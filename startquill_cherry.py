@@ -7,7 +7,7 @@ from email.MIMEText import MIMEText
 from aifc import Error
 import cherrypy
 from QuillSourceProcessor import QuillSourceProcessor
-from QuillManual import QuillManual 
+from QuillManual import QuillManual
 import const
 import MySQLdb
 import logging
@@ -35,7 +35,7 @@ class QuillCherry:
     @cherrypy.expose
     def getCorrections(self, lang, currWord, userInput, pos, rand=None, callback=None, scid=None):
         currWord = currWord.split(",")
-        c = self.quillProcessor.getCorrections(lang, 
+        c = self.quillProcessor.getCorrections(lang,
                 [x.decode('utf-8') for x in currWord], userInput, int(pos))
         o = {}
         words = []
@@ -63,7 +63,7 @@ class QuillCherry:
         if callback:
             ret = "%s(%s,%s)" % (callback, ret, scid)
         return ret
-        
+
     @cherrypy.expose
     def processText(self, inString,rand,lang):
         self.quillProcessor.switchLanguage(lang)
@@ -91,7 +91,7 @@ class QuillCherry:
     @cherrypy.expose
     def processWordJSON(self, inString, lang, rand=None, callback=None, scid=None):
         d = self.quillProcessor.processWord(inString, lang)
-	
+
         try:
             d['itrans'] = self.quillPrimary[lang].primaryToUnicode(inString)
         except KeyError, e:
@@ -114,7 +114,7 @@ class QuillCherry:
     @cherrypy.expose
     def processEngWord(self, inString, lang, rand=None, callback=None, scid=None):
         d = self.quillProcessor.processWord(inString, lang)
-        
+
         try:
             d['itrans'] = self.quillPrimary[lang].primaryToUnicode(inString)
         except KeyError, e:
@@ -133,8 +133,8 @@ class QuillCherry:
         if callback:
             ret = "%s(%s,%s)" % (callback, ret, scid)
         return ret
-        
-    @cherrypy.expose        
+
+    @cherrypy.expose
     def processAPIWord(self, inString, lang, rand=None, callback=None, scid=None, key=None):
         if key:
             if self.validAPIKeys.has_key(key) and lang in self.validAPIKeys.get(key):
@@ -144,40 +144,40 @@ class QuillCherry:
     @cherrypy.expose
     def AddAPIKey(self, key=None, lang=None):
         if key and lang:
-            lang = lang.lower() 
+            lang = lang.lower()
             if key not in self.validAPIKeys:
-                self.validAPIKeys[key] = [lang]                                                        
+                self.validAPIKeys[key] = [lang]
             elif lang not in self.validAPIKeys[key]:
                 self.validAPIKeys[key].append(lang)
             return json.encode({'status': 'Success'})
         return json.encode({'status': 'Error'})
-   
+
     @cherrypy.expose
     def RemoveAPIKey(self, key=None):
-        if key: 
+        if key:
             if key in self.validAPIKeys:
-                del self.validAPIKeys[key]                                                        
+                del self.validAPIKeys[key]
                 return json.encode({'status': 'Success'})
         return json.encode({'status': 'Error'})
 
     @cherrypy.expose
     def GetAPILang(self, key=None, callback=None, id=None):
-        s='Error'               
-        if key: 
+        s='Error'
+        if key:
             if key in self.validAPIKeys:
-               langs = self.validAPIKeys[key] 
-               s = ','.join(langs);                                              
+               langs = self.validAPIKeys[key]
+               s = ','.join(langs);
         if callback:
             s = "%s('%s',%s)" % (callback, s, id)
-        return s 
+        return s
 
     @cherrypy.expose
     def RemoveLanguage(self, key=None, lang=None):
         if key and lang:
             if key in self.validAPIKeys and lang in self.validAPIKeys.get(key):
-                self.validAPIKeys.get(key).remove(lang)                                                        
+                self.validAPIKeys.get(key).remove(lang)
                 if len(self.validAPIKeys.get(key)) == 0:
-                    del self.validAPIKeys[key]                                                        
+                    del self.validAPIKeys[key]
                 return json.encode({'status': 'Success'})
         return json.encode({'status': 'Error'})
 
@@ -188,9 +188,9 @@ class QuillCherry:
         try:
             d['options'] = self.quillProcessor.processReverseWord(uWord.decode('utf-8'), lang)
         except KeyError, e:
-            d['options'] = [] 
+            d['options'] = []
             print "Exception: ", e
-        
+
         ret = json.encode(d)
         if callback:
             ret = "%s(%s, %s)" % (callback, ret, scid)
@@ -229,8 +229,8 @@ class QuillCherry:
         except Exception, e:
             logger.error(str(e))
             print e
-            return "-------------";    
-        
+            return "-------------";
+
     @cherrypy.expose
     def unicodeToHelperPairCherry(self, uStr, rand, lang):
         try:
@@ -239,8 +239,8 @@ class QuillCherry:
         except Exception, e:
             logger.error(str(e))
             print e
-            return "-------------";    
-    
+            return "-------------";
+
     @cherrypy.expose
     def unicodeToHelperStrCherry(self, uStr,rand, lang ) :
         try:
@@ -249,7 +249,7 @@ class QuillCherry:
             logger.error(str(e))
             print e
             return "-------------";
-    
+
     @cherrypy.expose
     def getOptionsAtCherry(self, currHelper, currUStr, pos,rand, lang ) :
         try:
@@ -257,8 +257,8 @@ class QuillCherry:
         except Exception, e:
             logger.error(str(e))
             print e
-            return "-------------";    
-    
+            return "-------------";
+
     @cherrypy.expose
     def getInsertCorrectionsCherry(self, currHelper, currUStr, pos, delta,rand, lang ) :
         try:
@@ -268,7 +268,7 @@ class QuillCherry:
             logger.error(str(e))
             print e
             return "-------------";
-    
+
     @cherrypy.expose
     def getDeleteCorrectionsCherry(self, currHelper, currUStr, pos, delLen,rand, lang ) :
         try:
@@ -277,7 +277,7 @@ class QuillCherry:
             logger.error(str(e))
             print e
             return "-------------";
-        
+
     @cherrypy.expose
     def getDeleteAndInsertCorrectionsCherry(self, currHelper, currUStr, pos, delLen,rand, lang, insertDelta ) :
         try:
@@ -288,7 +288,7 @@ class QuillCherry:
             print "newHelper : " + newHelper
             newCurrUStr = deleteCorrectionsTuple[0];
             return currUStr.decode('utf-8') + "\n" + "\n".join(tupleToStrList(self.quillManual[lang].getInsertCorrections( newHelper, newCurrUStr, int(pos), insertDelta )));
-            
+
         except Exception, e:
             logger.error(str(e))
             print e
@@ -316,25 +316,27 @@ class QuillCherry:
         self.processWordDict = {}
         self.validAPIKeys = {}
         self.quillProcessor = QuillSourceProcessor()
-        self.quillManual= {"hindi": QuillManual("Hindi_Primary.xml"),"kannada": QuillManual("Kannada_Primary.xml"), "malayalam": QuillManual("Malayalam_Primary.xml"), "marathi": QuillManual("Marathi_Primary.xml"), "tamil": QuillManual("Tamil_Primary.xml"),"telugu": QuillManual("Telugu_Primary.xml")}
-        self.loadPreprocs("additional_text_files/preProcessedWordFiles.txt")
+        self.quillManual= {"hindi": QuillManual("Hindi_Primary.xml"),
+        #"kannada": QuillManual("Kannada_Primary.xml"), "malayalam": QuillManual("Malayalam_Primary.xml"), "marathi": QuillManual("Marathi_Primary.xml"), "tamil": QuillManual("Tamil_Primary.xml"),"telugu": QuillManual("Telugu_Primary.xml")
+        }
+        self.loadPreprocs("data/additional_text_files/preProcessedWordFiles.txt")
         self.buildPrimary()
-    
+
     @cherrypy.expose
     def saveErrorMessage(self, message, version, sessionid, rand, lang):
         insert_dict = {'message':message, 'version':version, 'sessionid':sessionid, 'language':lang}
         sql = insertFromDict("error_log", insert_dict)
-        
+
         try:
             cursor = cherrypy.thread_data.db.cursor()
         except Exception, e:
             connect()
             cursor = cherrypy.thread_data.db.cursor()
             logger.warn(str(e))
-            
+
         cursor.execute(sql, insert_dict)
         cursor.close()
-        
+
     @cherrypy.expose
     def saveFeedback(self, message, name, email, version, sessionid, rand, lang):
         insert_dict = {'message':message,'name':name,'email':email, 'version':version, 'sessionid':sessionid, 'language':lang, "remote_addr": cherrypy.request.headers['x-forwarded-for'][-90:]}
@@ -345,7 +347,7 @@ class QuillCherry:
             connect()
             cursor = cherrypy.thread_data.db.cursor()
             logger.warn(str(e))
-        
+
         cursor.execute(sql, insert_dict)
         cursor.close()
 
@@ -355,13 +357,13 @@ class QuillCherry:
 
             server = smtplib.SMTP(const.SMTP_SERVER_URL)
             if len(const.SMTP_LOGIN_USER) != 0:
-                server.login( const.SMTP_LOGIN_USER, const.SMTP_LOGIN_PASSWD) 
+                server.login( const.SMTP_LOGIN_USER, const.SMTP_LOGIN_PASSWD)
             #server.set_debuglevel(1)
             send_emails_to = email_to.split(',');
             send_emails_to.append(email_replyto);
             server.sendmail(email_from + "<quill@tachyon.in>", send_emails_to, html_message)
             server.quit()
-            
+
             #recording this in the db
             insert_dict = {'lang':lang, 'mail_count':len(email_to.split(','))}
             sql = insertFromDict("emails_sent", insert_dict)
@@ -371,7 +373,7 @@ class QuillCherry:
                 connect()
                 cursor = cherrypy.thread_data.db.cursor()
                 logger.warn(str(e))
-                
+
             cursor.execute(sql, insert_dict)
             cursor.close()
             return "success"
@@ -382,10 +384,10 @@ class QuillCherry:
 
     @cherrypy.expose
     def sendHTMLEmail(self, email_to, email_from, email_replyto, email_subject, email_message, email_message_html, rand, lang):
-        html_message = createhtmlmail(email_subject, email_message, 
+        html_message = createhtmlmail(email_subject, email_message,
             getFormattedHTML(email_message_html, lang), email_from + " <quill@tachyon.in>", email_to, email_replyto)
         self.sendMail(email_to, email_from, email_replyto, email_subject, html_message, lang)
-    
+
     @cherrypy.expose
     def sendEmail(self, email_to, email_from, email_replyto, email_subject, email_message, version, sessionid, rand, lang):
         html = getHTML(email_message, lang)
@@ -397,7 +399,7 @@ class QuillCherry:
         text = textout.getvalue( )
         html_message = createhtmlmail(email_subject, text, html, email_from + " <quill@tachyon.in>", email_to, email_replyto)
         self.sendMail(email_to, email_from, email_replyto, email_subject, html_message, lang)
-    
+
     @cherrypy.expose
     def saveNewWordMapping(self, rand, lang, key, value, mode):
         insert_dict = {'wkey':key, 'wvalue':value, 'language':lang, 'mode':mode}
@@ -408,20 +410,20 @@ class QuillCherry:
             connect()
             cursor = cherrypy.thread_data.db.cursor()
             logger.warn(str(e))
-            
+
         cursor.execute(sql, insert_dict)
         cursor.close()
-        
+
 def getHTML(message, lang=None, withNote=True):
     htmlMsg = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><xmeta content="text/html;charset=utf-8" http-equiv="Content-Type"></head><xbody bgcolor="#ffffff" text="#000000"><pre>'+ message + '</pre>'
     if withNote:
         htmlMsg += '<br><p>If you are seeing junk characters instead of the correct ' + lang +' characters, in your browser go to \'View->Encoding\' and select the option \'Unicode (UTF-8)\'. To respond to this email in '+ lang +', visit http://quillpad.in/'+lang+'</p>'
-        
+
     htmlMsg +=  '</xbody></html>'
     return htmlMsg
 
 def getFormattedHTML(message, lang):
-    htmlMsg = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><xmeta content="text/html;charset=utf-8" http-equiv="Content-Type"></head><xbody>' + message 
+    htmlMsg = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><xmeta content="text/html;charset=utf-8" http-equiv="Content-Type"></head><xbody>' + message
     htmlMsg += '<br><p>If you are seeing junk characters instead of the correct ' + lang +' characters, in your browser go to \'View->Encoding\' and select the option \'Unicode (UTF-8)\'. To respond to this email in '+ lang +', visit http://quillpad.in/'+lang+'</p>'
     htmlMsg +=  '</xbody></html>'
     return htmlMsg
@@ -469,7 +471,7 @@ def createhtmlmail(subject, text, html, email_from, email_to, email_replyto):
     msg = out.getvalue( )
     out.close( )
     return msg
-        
+
 
 def insertFromDict(table, dict):
     """Take dictionary object dict and produce sql for

@@ -1,0 +1,14 @@
+<QuillLanguage lang="English" script="English" deffont="Arial" epsilon="">
+	<tree key="/" type="predictive">
+		<node id="1">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>6</context-len>
+			<terminal>True</terminal>
+			<classes>[("b",2384)]</classes>
+		</node>
+	</tree>
+</QuillLanguage>

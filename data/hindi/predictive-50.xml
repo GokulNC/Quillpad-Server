@@ -1,0 +1,14 @@
+<QuillLanguage lang="Hindi" script="Devanagari" deffont="Mangal" epsilon="">
+	<tree key="2" type="predictive">
+		<node id="1">
+			<split-rule>
+				<rel-index>0</rel-index>
+				<context-id>-1</context-id>
+				<feature>()</feature>
+			</split-rule>
+			<context-len>4</context-len>
+			<terminal>True</terminal>
+			<classes>[("२",31518),("2", 25)]</classes>
+		</node>
+	</tree>
+</QuillLanguage>
