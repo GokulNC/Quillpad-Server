@@ -4,7 +4,7 @@
 # @Version : 1
 
 import CART
-from QuillLanguage import QuillLanguage
+from src.QuillLanguage import QuillLanguage
 import pickle
 
 class QuillTrainer(object):

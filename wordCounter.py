@@ -2,7 +2,7 @@ from flask import Flask, request, render_template, redirect, url_for
 import itertools, threading, json
 import time
 
-from RingBuffers import RingBuffer, RingBufferFull
+from src.RingBuffers import RingBuffer, RingBufferFull
 
 app = Flask(__name__)
 

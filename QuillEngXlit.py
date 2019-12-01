@@ -3,8 +3,7 @@
 # @Author  : Ram Prakash, Sharath Puranik
 # @Version : 1
 
-import QuillLanguage
-import QuillPrimary
+from src import QuillPrimary, QuillLanguage
 
 import xml.etree.cElementTree as ET
 import copy

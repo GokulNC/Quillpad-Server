@@ -3,7 +3,7 @@
 # @Author  : Ram Prakash
 # @Version : 1
 
-import QuillManual
+from src import QuillManual
 
 staticQuillManual = QuillManual.QuillManual()
 staticQuillManual.loadPrimaryDef()

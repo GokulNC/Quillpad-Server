@@ -3,7 +3,7 @@
 # @Author  : Ram Prakash, Sharath Puranik
 # @Version : 1
 
-import QuillLanguage as qlang
+import src.QuillLanguage as qlang
 import QuillEngXlit as xlit
 import re
 import const

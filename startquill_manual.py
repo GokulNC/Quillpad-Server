@@ -1,6 +1,6 @@
 from aifc import Error
 import cherrypy
-from QuillManual import QuillManual 
+from src.QuillManual import QuillManual 
 
 class QuillManualCherry:
     

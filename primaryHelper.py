@@ -7,7 +7,6 @@
 # It can also be imported to get the dumped keyboard maps in string form
 
 import json
-import QuillPrimary
 import os
 import shutil
 import codecs

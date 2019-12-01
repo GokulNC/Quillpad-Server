@@ -7,7 +7,7 @@ from email.MIMEText import MIMEText
 from aifc import Error
 import cherrypy
 from QuillSourceProcessor import QuillSourceProcessor
-from QuillManual import QuillManual 
+from src.QuillManual import QuillManual 
 import const
 import MySQLdb
 import logging
@@ -23,7 +23,7 @@ import time
 import re, os, signal, sys
 import quilljson as json
 import demjson
-import QuillPrimary
+from src import QuillPrimary
 import config
 import urllib2
 from cherrypy.process.plugins import PIDFile
