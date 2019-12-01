@@ -8,17 +8,19 @@ import QuillPrimary
 
 import xml.etree.cElementTree as ET
 import copy
-import re
+import re, os
+import config
 
 from optparse import OptionParser
 
 class QuillEngXliterator(object):
-    def __init__(self,knowledgeDir1,knowledgeDir2,xlitDef):
+    def __init__(self, knowledgeDir1, knowledgeDir2, xlitDef):
         self.directMode = False
         self.lit2engEngine = None
         self.eng2indEngine = None
         self.lit2indEngine = None
-        
+        self.xlitDef = os.path.join(config.Xlit_folder, xlitDef)
+
         if knowledgeDir1 != None and knowledgeDir2 != None:
             self.lit2engEngine = QuillLanguage.QuillLanguage(langKnowledgeInput=knowledgeDir1, useCCart = True)
             self.eng2indEngine = QuillLanguage.QuillLanguage(langKnowledgeInput=knowledgeDir2, useCCart = True)
@@ -28,7 +30,7 @@ class QuillEngXliterator(object):
         
         self.primEngine = None
         self.xlitRules = None
-        self.loadXlitRules(xlitDef)
+        self.loadXlitRules(self.xlitDef)
         self.compileFeatureRes()
         
         self.debugLit = ''
@@ -57,7 +59,7 @@ class QuillEngXliterator(object):
         xlitTree = ET.parse(f)
         xlitRoot = xlitTree.getroot()
 
-        primaryDef = xlitRoot.attrib['primary']
+        primaryDef = os.path.join(config.xml_folder, xlitRoot.attrib['primary'])
         self.primEngine = QuillPrimary.QuillRuleBased(primaryDef)
         
         self.alphabet = {}
