@@ -6,15 +6,16 @@
 import xml.etree.cElementTree as ET
 import Pyrex.Plex
 import StringIO
-import re
+import re, os
 import copy
+import config
 
 class QuillManual(object):
 	def __init__(self, langDefFile):
 		self.codeChars = 'abcdefghijklmnopqrstuvwxyz'
-		
+		self.langDefFile = os.path.join(config.primary_xml_folder, langDefFile)
 		if langDefFile != None:
-			self.loadPrimaryDef(langDefFile)
+			self.loadPrimaryDef(self.langDefFile)
 	
 	def codeGen(self):
 		firstIndex = 0

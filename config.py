@@ -5,6 +5,7 @@
 from os.path import join
 xml_folder = "xml"
 Xlit_folder = join(xml_folder, "Xlit")
+primary_xml_folder = join(xml_folder, "Primary")
 
 langMap = {
     "bengali":   (join(xml_folder, "Bengali_New.xml"),   join("unique_word_files", "unique_bengali_words.txt")),
