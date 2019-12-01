@@ -3,6 +3,7 @@
 *.so
 *.pyd
 cherrypy/*
+CherryPy*/
 bengali/*.xml
 gujarati/*.xml
 hindi/*.xml

@@ -10,26 +10,33 @@
    1.0.1
 
    ### Preparation
+   
+   #### Installing Dependencies
+   ```
+   sudo apt install -y gcc python-dev python-pip python-mysqldb unzip bzip2 mysql-server default-libmysqlclient-dev
+   pip install cherrypy Pyrex-real MySQL-python mysql-connector-python cherrypy_cors Nevow tidy
+   mkdir logs
+   ```
 
-   There are several archive files in the repository which have to be extracted, these include trained transliteration models and additional text files necessary for the Quillpad Server
-
-   *  CherryPy-3.2.2.tar.gz
-   *  EnglishPronouncingTrees.tar.bz2
-   *  IndianPronouncingTrees.tar.bz2
-   *  additional_text_files.zip
-   *  bengali.tar.bz2
-   *  gujarati.tar.bz2
-   *  hindi.tar.bz2
-   *  kannada.tar.bz2
-   *  malayalam.tar.bz2
-   *  marathi.tar.bz2
-   *  nepali.tar.bz2
-   *  punjabi.tar.bz2
-   *  tamil.tar.bz2
-   *  telugu.tar.bz2
-   *  unique_word_files.zip
-
-   Kindly extract all of these archives into the repository folder itself.
+   There are several archive files in the repository which have to be extracted, these include trained transliteration models and additional text files necessary for the Quillpad Server.  
+   Kindly extract all of these archives into the repository folder itself:
+   ```
+   unzip additional_text_files.zip
+   unzip -d unique_word_files unique_word_files.zip
+   
+   tar -xvf EnglishPronouncingTrees.tar.bz2
+   tar -xvf IndianPronouncingTrees.tar.bz2
+   tar -xvf bengali.tar.bz2
+   tar -xvf gujarati.tar.bz2
+   tar -xvf hindi.tar.bz2
+   tar -xvf kannada.tar.bz2
+   tar -xvf malayalam.tar.bz2
+   tar -xvf marathi.tar.bz2
+   tar -xvf nepali.tar.bz2
+   tar -xvf punjabi.tar.bz2
+   tar -xvf tamil.tar.bz2
+   tar -xvf telugu.tar.bz2
+   ```
 
    ### Installation
 
@@ -64,29 +71,29 @@
 
    Additional Quillpad Documentation coming soon. Thanks for your patience.
 
-   ### Python Package Requirements
-     CherryPy-3.2.2 -> included within the repo
-     Pyrex -> http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/
-   		Need to download the source code from above link and use command `python setup.py install`
-     MySQL and MySQL-python -> If error during Quillpad server startup, then check the page:
-   		https://stackoverflow.com/questions/43634584/cant-install-mysql-python-with-pip-on-macos-10-12-4/54429707#54429707
-   		If above link also does not work then you may have to download/ install via zip files
-   		`pip install MySQL-python-1.2.5.zip` --> https://pypi.org/project/MySQL-python/#files
-   		`pip install http://cdn.mysql.com/Downloads/Connector-Python/mysql-connector-python-2.0.4.zip`
-   		
-     Need to make logs directory in Quillpad-Server:
-         `mkdir logs`
-
-   ### Reference
+   ### FAQ
+   - Issue with CherryPy? Use `CherryPy-3.2.2` included within the repo
+   - Issue with Pyrex? Download the [source code from here](http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/) and use `python setup.py install`
+   - Issue with MySQL and MySQL-python?
+     - If error during Quillpad server startup, then [check this page](https://stackoverflow.com/questions/43634584/cant-install-mysql-python-with-pip-on-macos-10-12-4/54429707#54429707)
+     - If above link also does not work then you may have to download & install via zip files
+       - `pip install MySQL-python-1.2.5.zip` --> [Download Link](https://pypi.org/project/MySQL-python/#files)
+       - `pip install http://cdn.mysql.com/Downloads/Connector-Python/mysql-connector-python-2.0.4.zip`
+   
+   ### References
    An invited talk paper for the Quillpad project:
      https://www.aclweb.org/anthology/W12-4810
    
    Similar Google service integration:
      https://stackoverflow.com/questions/28707899/how-to-use-google-input-tools-in-website
      
-   ### More reading/ reference material
+   #### More materials
    -  https://www.cse.iitb.ac.in/~anoopk/pages/softwares.html
    -  https://github.com/anoopkunchukuttan/indic_nlp_library
    -  https://github.com/anoopkunchukuttan/transliterator
    -  http://www.cfilt.iitb.ac.in/brahminet/static/publications/brahminet_naacl2015.pdf
-   
+
+   ### To Do
+   - Clean the root dir and reorganize data files
+   - DB connectivity
+   - Python3 support?

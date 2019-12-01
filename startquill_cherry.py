@@ -499,6 +499,15 @@ cherrypy.engine.subscribe('start_thread', connect)
 def tupleToStrList(ustrList):
     return [x[0] for x in ustrList[1] ]
 
+def enable_cors():
+    import cherrypy_cors
+    cherrypy_cors.install()
+    ## Basically does the following globally:
+    ## cherrypy.response.headers['Access-Control-Allow-Origin'] = '*'
+    cherrypy.config.update({
+        'cors.expose.on': True,
+    })
+
 def main() :
     """
     cherrypy.root = QuillCherry()
@@ -509,6 +518,7 @@ def main() :
     """
     cherrypy._cpconfig.Config('quill_cherry8088.conf')
     quillCherry = QuillCherry()
+    if const.enable_CORS: enable_cors()
     cherrypy.quickstart(quillCherry)
 
 if __name__ == '__main__' :

@@ -24,3 +24,4 @@ const.gendir = "sc"
 const.SMTP_SERVER_URL = "localhost"
 const.SMTP_LOGIN_USER = ""
 const.SMTP_LOGIN_PASSWD = ""
+const.enable_CORS = False
