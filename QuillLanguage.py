@@ -9,6 +9,7 @@ import copy
 import xml.etree.cElementTree as ET
 import Pyrex.Plex
 import StringIO
+import config
 
 from CART import CARTWord
 from CART import CART
@@ -45,7 +46,8 @@ class QuillLanguage(object):
         self.wordValidatorRe = None
 
         if langDefFile != None:
-            self.loadLanguageDef(langDefFile)
+            self.langDefFile = os.path.join(config.key_layouts_folder, langDefFile)
+            self.loadLanguageDef(self.langDefFile)
             self.compileFeatureRes()
             self.wordValidatorRe = self.compileRe(self.wordValidatorPattern)
 

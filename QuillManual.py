@@ -13,8 +13,8 @@ import config
 class QuillManual(object):
 	def __init__(self, langDefFile):
 		self.codeChars = 'abcdefghijklmnopqrstuvwxyz'
-		self.langDefFile = os.path.join(config.primary_xml_folder, langDefFile)
 		if langDefFile != None:
+			self.langDefFile = os.path.join(config.primary_xml_folder, langDefFile)
 			self.loadPrimaryDef(self.langDefFile)
 	
 	def codeGen(self):
