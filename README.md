@@ -17,7 +17,7 @@
    pip install cherrypy Pyrex-real MySQL-python mysql-connector-python cherrypy_cors Nevow tidy
    mkdir logs
    ```
-
+   #### Setting up required files
    There are several archive files in the repository which have to be extracted, these include trained transliteration models and additional text files necessary for the Quillpad Server.  
    Kindly extract all of these archives into the repository folder itself:
    ```
@@ -72,6 +72,8 @@
    Additional Quillpad Documentation coming soon. Thanks for your patience.
 
    ### FAQ
+   - How to run on port 80?
+     - Set port in `quill_cherry8088.conf` and run `sudo -E python startquill_cherry.py`
    - Issue with CherryPy? Use `CherryPy-3.2.2` included within the repo
    - Issue with Pyrex? Download the [source code from here](http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/) and use `python setup.py install`
    - Issue with MySQL and MySQL-python?
